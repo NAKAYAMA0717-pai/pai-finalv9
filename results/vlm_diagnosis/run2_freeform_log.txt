@@ -1,0 +1,15 @@
+# diagnose_failures.py (自由記述JSON, 10コマ448px, コマごとのメモ+定義) の実行ログ
+# 対象: r1_spatial + n_action_steps=10 の Object 失敗動画 (10 本)
+chocolate pudding 100 no_approach
+cream cheese 122 grasp_dropped
+ketchup 127 no_approach
+orange juice 170 no_approach
+alphabet soup 24 grasp_dropped
+alphabet soup 25 carry_incomplete
+alphabet soup 26 carry_incomplete
+alphabet soup 28 grasp_dropped
+bbq sauce 32 carry_incomplete
+alphabet soup 4 no_approach
+# 提案 (入力: 物体ごとの試行数・失敗数・失敗率)
+add_demos: alphabet soup 17, bbq sauce 8, chocolate pudding 8,
+           cream cheese 8, ketchup 8, orange juice 8   (合計 57)

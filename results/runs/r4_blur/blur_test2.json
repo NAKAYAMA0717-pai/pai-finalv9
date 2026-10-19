@@ -1,0 +1,11 @@
+{
+ "model": "r3_object",
+ "blur_tasks": 8,
+ "results": {
+  "unsharp_weak(sigma1.5,amount1.0)": "0/8",
+  "unsharp_strong(sigma3.0,amount2.0)": "0/8",
+  "none": "0/8"
+ },
+ "filter_applied_camera": "observation.images.front",
+ "note": "PRE_MARK で補正がかかったカメラ名を確認済み。最初の検証(1/8)は補正が掛かっておらず、ばらつきだった"
+}

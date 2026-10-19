@@ -1,0 +1,16 @@
+{
+ "run": "r1_spatial",
+ "suites": [
+  "libero_spatial"
+ ],
+ "eps": 5,
+ "steps": 5000,
+ "lr": 0.0001,
+ "final_lr": 1e-05,
+ "warmup": 200,
+ "batch": 2,
+ "lora_r": 32,
+ "lora_alpha": 32,
+ "seed": 42,
+ "episodes": 50
+}

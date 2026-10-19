@@ -1,0 +1,72 @@
+[
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 0,
+  "success": true
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 32,
+  "success": false
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 79,
+  "success": true
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 100,
+  "success": false
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 122,
+  "success": false
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 127,
+  "success": true
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 138,
+  "success": true
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 170,
+  "success": false
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 210,
+  "success": true
+ },
+ {
+  "model": "r3_object",
+  "nas": "nas10",
+  "suite": "libero_object",
+  "task_id": 235,
+  "success": true
+ }
+]

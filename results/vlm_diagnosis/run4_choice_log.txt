@@ -1,0 +1,26 @@
+# diagnose_frames.py (選択肢A〜E + ルール判定) の実行ログ
+# 対象: r1_spatial モデル + n_action_steps=10 の Object 評価動画 (21 本)
+# A=机の上 B=つかんで持ち上げ C=カゴの中/上 D=押した・動いた E=不明
+OK alphabet soup 0 EEEEEEAAEAAA -> no_approach
+NG chocolate pudding 100 EEAAEEEEAEEE -> no_approach
+NG cream cheese 122 EAAAAAAAEAAA -> no_approach
+NG ketchup 127 AAAEAAAAAAAA -> no_approach
+OK milk 138 AAAAEABEAACA -> reached_basket
+NG orange juice 170 AAAAAAAAAAAA -> no_approach
+OK alphabet soup 20 EEAAEAEAEAAA -> no_approach
+OK salad dressing 210 AAAAAAABBBEA -> carry_incomplete
+OK alphabet soup 21 EEEAAEEBEBAE -> carry_incomplete
+OK alphabet soup 22 EEAAEAABAEEA -> no_approach
+OK tomato sauce 235 EAAAABAEBAEE -> grasp_dropped
+OK alphabet soup 23 EEEAAEEAEEAE -> no_approach
+NG alphabet soup 24 EAEEEAEAAEAE -> no_approach
+NG alphabet soup 25 EEEAEEAAEAEE -> no_approach
+NG alphabet soup 26 EAEAEEEEEEBA -> no_approach
+OK alphabet soup 27 EEAAEEEEEAAA -> no_approach
+NG alphabet soup 28 EEEEAEEEAEEE -> no_approach
+NG bbq sauce 32 AEAAAAAAEAAA -> no_approach
+NG alphabet soup 4 EEEAEEEAEAEE -> no_approach
+OK butter 79 EEEAAAEEEAAA -> no_approach
+OK alphabet soup 8 EEEEEAEEEEAA -> no_approach
+成功 11 本のうち 運べたと検出: 1
+失敗 10 本のうち 運べたと誤検出: 0

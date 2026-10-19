@@ -1,0 +1,52 @@
+[
+ {
+  "setting": "fixed5",
+  "nas": 5,
+  "success": 15,
+  "n": 30,
+  "rate": 0.5,
+  "calls_per_episode": 45.5,
+  "ms_per_call": 327,
+  "infer_s_per_episode": 14.9
+ },
+ {
+  "setting": "fixed10",
+  "nas": 10,
+  "success": 13,
+  "n": 30,
+  "rate": 0.43,
+  "calls_per_episode": 23.3,
+  "ms_per_call": 326,
+  "infer_s_per_episode": 7.6
+ },
+ {
+  "setting": "adaptive_10_25",
+  "nas": null,
+  "success": 11,
+  "n": 30,
+  "rate": 0.37,
+  "calls_per_episode": 18.4,
+  "ms_per_call": 330,
+  "infer_s_per_episode": 6.1
+ },
+ {
+  "setting": "fixed25",
+  "nas": 25,
+  "success": 8,
+  "n": 30,
+  "rate": 0.27,
+  "calls_per_episode": 10.7,
+  "ms_per_call": 330,
+  "infer_s_per_episode": 3.5
+ },
+ {
+  "setting": "fixed50",
+  "nas": 50,
+  "success": 3,
+  "n": 30,
+  "rate": 0.1,
+  "calls_per_episode": 5.7,
+  "ms_per_call": 334,
+  "infer_s_per_episode": 1.9
+ }
+]

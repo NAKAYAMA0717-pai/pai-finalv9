@@ -1,0 +1,23 @@
+{
+ "run": "r3_object",
+ "suites": [
+  "libero_object"
+ ],
+ "eps": 5,
+ "eps_by_task": {
+  "pick up the bbq sauce and place it in the basket": 20,
+  "pick up the chocolate pudding and place it in the basket": 20,
+  "pick up the cream cheese and place it in the basket": 20,
+  "pick up the ketchup and place it in the basket": 20,
+  "pick up the orange juice and place it in the basket": 20
+ },
+ "steps": 4000,
+ "lr": 0.0003,
+ "final_lr": 3e-05,
+ "warmup": 100,
+ "batch": 2,
+ "lora_r": 32,
+ "lora_alpha": 32,
+ "seed": 42,
+ "episodes": 125
+}
